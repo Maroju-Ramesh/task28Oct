@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    color: rgb(202, 75, 2);
+    font-size: 40px;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+body{
+    background-color: rgb(10, 10, 10);
+}
+.images{
+    display: flex;
+    margin: 10px;
+    flex-flow: wrap;
+    gap: 5px;
+    justify-content: center;
+    
+}
+.songs{
+    display: flex;
+    justify-content: center;
+    
+    gap: 10px;
+    color: white;
+}
+.label{
+    justify-content: space-around;
+    color: rgb(6, 80, 10);
+    padding-top:10px;
+    display: flex;
+}
+
+span{
+    font-size:30px
+}
+
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.teaser{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
